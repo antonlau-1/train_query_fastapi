@@ -1,0 +1,36 @@
+# Ignore virtual environment directory
+pyvenv.cfg
+bin/
+.env/
+lib/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore log files
+*.log
+
+# Ignore any databases created locally
+*.sqlite3
+
+# Ignore environment variables
+.env
+
+# Ignore Pytest cache
+.pytest_cache/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.cache
+coverage.xml
+*.cover
