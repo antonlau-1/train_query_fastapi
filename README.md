@@ -2,6 +2,10 @@ This is a fastapi service created to query train information stored in a postgre
 
 The app is containerised with a local Postgres DB of your choice and a pytest module that will run tests on the api using test.py everytime the docker container is created.
 
+You may want to create a virtual env, you can do so using the venv library in python:
+python3 -m venv path/to/venv
+source path/to/venv/bin/activate (macOS) OR path\to\venv\Scripts\activate (Windows)
+
 Please define your own .env file with the following entries:
 POSTGRES_DB=your-db-name
 POSTGRES_USER=your-role-to-access-db
